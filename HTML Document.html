@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML5 Features</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML5 Features Implementation</h1>
+        </header>
+        <section>
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>HTML5</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+            </ol>
+        </section>
+        <section>
+            <h2>External Image</h2>
+            <img src="https://images.pexels.com/photos/9553909/pexels-photo-9553909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image of a man working on a laptop" width="500" height="400">
+        </section>
+        <section>
+            <h2>Contact Table</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+              <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+             </thead> 
+             <tbody>
+                <tr>
+                    <td>Joseph Obam</td>
+                    <td>123 Main St</td>
+                    <td>+254711324787</td>
+                    <td>obamjoseph006@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie White</td>
+                    <td>654 Marple St</td>
+                    <td>+4455667788</td>
+                    <td>charliewhite@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>156 Peak St</td>
+                    <td>+1234567890</td>
+                    <td>john@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alison Brown</td>
+                    <td>321 Pine St</td>
+                    <td>+254777889900</td>
+                    <td>alisonpacker@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Cate</td>
+                    <td>789 Oak St</td>
+                    <td>+254700030733</td>
+                    <td>jane87@gmail.com</td>
+                </tr>
+             </tbody>  
+            </table>
+        </section>
+        <!-- Registration Form-->
+         <section>
+            <h2>Registartion Form</h2>
+            <form action="#" method="post">
+                <!-- Name Field-->
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                 <br><br>
+
+                  <!-- Email Field-->
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  <br><br>
+
+                   <!-- Password Field-->
+                 <label for="password">Password:</label>
+                 <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                 <br><br>
+                 
+                 <!-- Data Field-->
+                 <label for="dob">Date of Birth:</label>
+                 <input type="date" id="dob" name="dob"  required>
+                 <br><br>
+
+                 <!-- Dropdown-->
+                  <label for="country">Country:</label>
+                  <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="uganda">Uganda</option>
+                        <option value="tanzania">Tanzania</option>
+                 </select>
+                 <br><br>
+
+                 <!-- Radio Buttons-->
+                 <label>Gender:</label>
+                 <input type="radio" id="male" name="gender" value="male" required>
+                 <label for="male">Male</label>
+                 <input type="radio" id="female" name="female" value="female" required>
+                 <label for="female">Female</label>
+                 <br><br>
+
+                 <!-- Checkboxes-->
+                  <label>Hobbies</label>
+                  <input type="checkbox" id="reading" name="hobbies" value="reading">
+                  <label for="reading">Reading</label>
+                  <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                  <label for="traveling">Traveling</label>
+                  <input type="checkbox" id="sports" name="hobbies" value="sports">
+                  <label for="sportd">Sports</label>
+                  <br><br>
+
+                  <!-- Submit Button -->
+                  <button type="submit">Register</button>
+            </form>
+         </section>
+
+         <!-- Multimedia Elements -->
+         <section>
+            <h2>Multimedia Elements</h2>
+            <!-- Audio -->
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="c:\Users\love\Desktop\download\Audio,whatsapp.mp3" type="audio/mpeg">
+            </audio>
+            <br><br>
+
+            <!-- Video -->
+            <h3>Video</h3>
+            <video controls width="500">
+                <source src="c:\Users\love\Documents\Video,mp3.mp4" type="video/mp4">
+            </video>
+         </section>
+    </body>
+</html>
